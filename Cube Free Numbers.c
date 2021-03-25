@@ -11,14 +11,11 @@ int main()
       //printf("%d\n",c);
      for(a=1;a<=n;a++)
      {
-        for(a=1;a<=n;a++)
-        {
 
-        }
-        printf("%d",n);
      }
-     if(n==8)
-     printf("Not Cube Free");
+     printf("%d",n);
+      if(n==8)
+      printf("Not Cube Free");
    }
    return 0;
 }
