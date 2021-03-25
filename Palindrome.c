@@ -5,7 +5,7 @@ int main()
    int i,par=2,len;
    scanf("%s",&a);
    for(i=1;a[i-1]!=0;i++)
-      len++;
+     // len++;
       for(i=1;i<=len;i++){
          if(a[i-1]>97&&a[i-1]<=99)
          {
@@ -41,7 +41,7 @@ int main()
   }
   if(par==2)
   {
-   printf("2");
+    printf("2");
   }
   return 0 ;
 }
