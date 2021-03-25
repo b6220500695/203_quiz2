@@ -10,10 +10,6 @@ int main()
      {
 
      }
-     if(n==0)
-      {
-         printf("Not Cube Free");
-      }
-    printf("%d",n);
+   printf("%d\n",n);
    }
 }
