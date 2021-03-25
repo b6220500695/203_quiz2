@@ -31,6 +31,16 @@ int main()
        par = 2;
      }
   }
-
-
+  if(par==0)
+  {
+     printf("%d",&a[i-1]);
+  }
+  if(par==1)
+  {
+     printf("%d",&a[i-1]);
+  }
+  if(par==2)
+  {
+     printf("%d",&a[i-1]);
+  }
 }
