@@ -33,15 +33,15 @@ int main()
   }
   if(par==0)
   {
-     printf("0");
+     printf("par");
   }
   if(par==1)
   {
-     printf("1");
+     printf("not par");
   }
   if(par==2)
   {
-    printf("2");
+    printf("double par");
   }
   return 0 ;
 }

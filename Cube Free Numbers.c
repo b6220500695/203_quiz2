@@ -6,18 +6,17 @@ int main()
 
    if((1<=n)&&(n<=1000000))
    {
+     for(a=1;a<=n;a++)
+     {
       a=n/2;
       b=a%2;
       c=b+2;
-     for(a=1;a<=n;a++)
-     {
-        if()
-        printf("Cube number");
-        else
-        printf("Not Cuber Free")
+      c=n;
      }
-
-
+      if(n==0)
+        printf("%d",n);
+      else
+      printf("Not Cube Free");
    }
 }
-}
+
