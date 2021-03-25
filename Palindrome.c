@@ -9,7 +9,7 @@ int main()
       for(i=1;i<=len;i++){
          if((a[i-1]>=1)&&(a[i-1]<=1000000))
          {
-            a[i-1]=a[i-1]-32;
+            a[i-1]=a[i-1];
             b[len-i]=a[i-1];
          }
    }
@@ -28,7 +28,7 @@ int main()
      for(i=1;i<=(len%2)/2;i++)
      {
        if(a[len/2+len%2+i-1]!=b[i-1])
-       par =1;
+       par =2;
      }
   }
   if(par==0)

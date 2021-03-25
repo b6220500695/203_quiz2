@@ -17,7 +17,8 @@ int main()
         }
         printf("%d",n);
      }
-
+     if(n==8)
+     printf("Not Cube Free");
    }
    return 0;
 }
