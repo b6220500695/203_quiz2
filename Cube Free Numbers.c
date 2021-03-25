@@ -6,10 +6,13 @@ int main()
 
    if((1<=n)&&(n<=1000000))
    {
+      a=n/2;
+      b=n%2;
+      c=b;
+      printf("%d\n",c);
      for(a=1;a<=n;a++)
      {
-
      }
-   printf("%d\n",n);
+   printf("%d",n);
    }
 }
